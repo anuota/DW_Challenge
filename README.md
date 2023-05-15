@@ -24,11 +24,8 @@
 │                         generated with `pip freeze > requirements.txt`                    
 │                                                                                           
 │── src                <- Source code for use in this project.                              
-│   ├── data           <- Scripts to download or generate data                              
-│   │   └── make_dataset.py                                                                 
-│   │                                                                                       
-│   └── features       <- Scripts to turn raw data into features for modeling               
-│       └── build_features.py                                                               
+│   ├── api_functions.py           <- Scripts to download or generate data                              
+│   └── postgres_functions.py      <- Scripts to download or generate  
 │                                                                                           
 └── venvDE/            <- filder with environment (not shared in GIT)                       
 
