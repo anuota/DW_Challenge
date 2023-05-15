@@ -6,11 +6,12 @@
 ├── README.md          <- The top-level README for developers using this project.           
 ├── quickstart.py      <- quickstart guide for Gmail API                                    
 ├── credentials.json   <- aunthefication file for  API | not shared in GIT                  
-├── token.json         <- aunthefication file for  API | not shared in GIT                   
+├── token.json         <- aunthefication file for  API | not shared in GIT  
+│                                                                                           
 ├── data                                                                                    
 │   ├── external       <- Junior_DE_Task/    # task files for the challenge                
 │   ├── downloaded     <- downloaded .csv files via Gmail API                                                 
-│   └── processed      <- The final, canonical data sets for modeling.                      
+│   └── processed      <- processed data                      
 │                                                                                           
 ├── notebooks          <- Anya_DE.ipynb         # main notebook that calls functions from /src             
 │                      <- Anya_DE_draft.ipynb   # drafts                                    
