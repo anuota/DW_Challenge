@@ -1,5 +1,3 @@
-# Big table SQL query 
-
 SELECT 
 	page_admin_top_country,
 	page_created,
@@ -16,10 +14,3 @@ SELECT
 	overperforming_score_  
 FROM table103;
 	
-#VIDEO Table SQL query
-SELECT 
-	page_admin_top_country,
-	video_share_status,
-	total_views,
-	video_length 
-FROM table103;
