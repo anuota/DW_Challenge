@@ -27,7 +27,7 @@
 │   ├── api_functions.py           <-  functions for Gmail API                              
 │   └── postgres_functions.py      <-  functions to manage postgres databases  
 │                                                                                           
-└── venvDE/            <- filder with environment (not shared in GIT)                       
+└── venvDE/            <- folder with virtual environment | not shared in GIT                       
 
 ### Installing development requirements
 ------------
@@ -36,7 +36,7 @@
     2. follow steps to download aunthefication file with credentials from  https://developers.google.com/gmail/api/quickstart/python
     2a. rename the credentials file to credentials.json
     3. run script python3 quickstart.py to create token.json
-    4.
+    4. run Anya_DE.ipynb  as jupyter notebook to solve tasks
 
 ### References
 
