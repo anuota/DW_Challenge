@@ -12,29 +12,30 @@ Junior_DE_Task/  # folder with challenge
 ├── credentials.json   <- aunthefication file for  API | not shared in GIT                  
 ├── token.json         <- not shared in GIT                                                 
 ├── data                                                                                    
-│   ├── external       <- Junior_DE_Task/       # challenge files
-│   ├── downloaded     <- downloaded .csv files via Gmail API
-│   ├── interim        <- Intermediate data that has been transformed.
-│   └── processed      <- The final, canonical data sets for modeling.
-│
-├── notebooks          <- Anya_DE.ipynb         # main notebook with solutions 
-│                      <- Anya_DE_draft.ipynb   # drafts
-│                      <- SQL_query             # SQL scripts
-│
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
-├── requirements.txt   <- The requirements file for reproducing the analysis environment,
-│                         generated with `pip freeze > requirements.txt`
-│
-│── src                <- Source code for use in this project.
-│   ├── data           <- Scripts to download or generate data
-│   │   └── make_dataset.py
-│   │
-│   └── features       <- Scripts to turn raw data into features for modeling
-│       └── build_features.py
-│
-└── venvDE/            <- filder with environment (not shared in GIT)
+│   ├── external       <- Junior_DE_Task/       # challenge files                           
+│   ├── downloaded     <- downloaded .csv files via Gmail API                               
+│   ├── interim        <- Intermediate data that has been transformed.                      
+│   └── processed      <- The final, canonical data sets for modeling.                      
+│                                                                                           
+├── notebooks          <- Anya_DE.ipynb         # main notebook with solutions              
+│                      <- Anya_DE_draft.ipynb   # drafts                                    
+│                      <- SQL_query             # SQL scripts                               
+│                                                                                           
+├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.                      
+│   └── figures        <- Generated graphics and figures to be used in reporting            
+│                                                                                           
+├── requirements.txt   <- The requirements file for reproducing the analysis environment,   
+│                         generated with `pip freeze > requirements.txt`                    
+│                                                                                           
+│── src                <- Source code for use in this project.                              
+│   ├── data           <- Scripts to download or generate data                              
+│   │   └── make_dataset.py                                                                 
+│   │                                                                                       
+│   └── features       <- Scripts to turn raw data into features for modeling               
+│       └── build_features.py                                                               
+│                                                                                           
+└── venvDE/            <- filder with environment (not shared in GIT)                       
+
 ### Installing development requirements
 ------------
 
