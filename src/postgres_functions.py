@@ -51,7 +51,7 @@ def execute_query(conn, query):
 
 # 2nd option create postgres database
 def create_postgres (db,new_table):
-    cols=cols=','.join([column.replace(" ", "_").replace("?","").lower() + str(' VARCHAR') for column in data.columns.values])
+    cols=cols=','.join([column.replace(" ", "_").replace("?","").lower() + str(' VARCHAR') for column in db.columns.values])
 
     conn = connect(param_dic)
     cur = conn.cursor()
@@ -69,7 +69,7 @@ def upload_csv_to_postgres(table, csv):
     conn = connect(param_dic)
     cur = conn.cursor()
     try:
-        [cur.copy_expert("COPY %s FROM STDIN WITH DELIMITER ',' CSV "%(table), open(csv_file)) for csv_file in files]
+        [cur.copy_expert("COPY %s FROM STDIN WITH DELIMITER ',' CSV "%(table), open(csv_file)) for csv_file in csv]
     except (Exception, psycopg2.DatabaseError) as error:
         print("Error: %s" % error)
         conn.rollback()
