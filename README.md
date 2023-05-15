@@ -12,7 +12,7 @@
 │   ├── downloaded     <- downloaded .csv files via Gmail API                                                 
 │   └── processed      <- The final, canonical data sets for modeling.                      
 │                                                                                           
-├── notebooks          <- Anya_DE.ipynb         # main notebook with solutions              
+├── notebooks          <- Anya_DE.ipynb         # main notebook that calls functions from /src             
 │                      <- Anya_DE_draft.ipynb   # drafts                                    
 │                      <- SQL_query             # SQL scripts                               
 │                                                                                           
@@ -23,8 +23,8 @@
 │                         generated with `pip freeze > requirements.txt`                    
 │                                                                                           
 │── src                <- Source code for use in this project.                              
-│   ├── api_functions.py           <- Scripts for Gmail API                              
-│   └── postgres_functions.py      <- Scripts to manage postgres databases  
+│   ├── api_functions.py           <-  functions for Gmail API                              
+│   └── postgres_functions.py      <-  functions to manage postgres databases  
 │                                                                                           
 └── venvDE/            <- filder with environment (not shared in GIT)                       
 
