@@ -7,11 +7,11 @@ Junior_DE_Task/  # folder with challenge
 
 ### Project Structure
 
-├── README.md          <- The top-level README for developers using this project.
-├── quickstart.py      <- quickstart guide for Gmail API
-├── credentials.json   <- aunthefication file for  API | not shared in GIT
-├── token.json         <- not shared in GIT
-├── data
+├── README.md          <- The top-level README for developers using this project.           
+├── quickstart.py      <- quickstart guide for Gmail API                                    
+├── credentials.json   <- aunthefication file for  API | not shared in GIT                  
+├── token.json         <- not shared in GIT                                                 
+├── data                                                                                    
 │   ├── external       <- Junior_DE_Task/       # challenge files
 │   ├── downloaded     <- downloaded .csv files via Gmail API
 │   ├── interim        <- Intermediate data that has been transformed.
