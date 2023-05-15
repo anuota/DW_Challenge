@@ -9,8 +9,7 @@
 ├── token.json         <- aunthefication file for  API | not shared in GIT                   
 ├── data                                                                                    
 │   ├── external       <- Junior_DE_Task/    # task files for the challenge                
-│   ├── downloaded     <- downloaded .csv files via Gmail API                               
-│   ├── interim        <- Intermediate data that has been transformed.                      
+│   ├── downloaded     <- downloaded .csv files via Gmail API                                                 
 │   └── processed      <- The final, canonical data sets for modeling.                      
 │                                                                                           
 ├── notebooks          <- Anya_DE.ipynb         # main notebook with solutions              
