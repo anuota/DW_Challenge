@@ -6,7 +6,7 @@
 ├── README.md          <- The top-level README for developers using this project.           
 ├── quickstart.py      <- quickstart guide for Gmail API                                    
 ├── credentials.json   <- aunthefication file for  API | not shared in GIT                  
-├── token.json         <- not shared in GIT                                                 
+├── token.json         <- aunthefication file for  API | not shared in GIT                   
 ├── data                                                                                    
 │   ├── external       <- Junior_DE_Task/    # task files for the challenge                
 │   ├── downloaded     <- downloaded .csv files via Gmail API                               
@@ -24,8 +24,8 @@
 │                         generated with `pip freeze > requirements.txt`                    
 │                                                                                           
 │── src                <- Source code for use in this project.                              
-│   ├── api_functions.py           <- Scripts to download or generate data                              
-│   └── postgres_functions.py      <- Scripts to download or generate  
+│   ├── api_functions.py           <- Scripts for Gmail API                              
+│   └── postgres_functions.py      <- Scripts to manage postgres databases  
 │                                                                                           
 └── venvDE/            <- filder with environment (not shared in GIT)                       
 
