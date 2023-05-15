@@ -1,9 +1,5 @@
 # DW_Challenge
 
-Junior_DE_Task/  # folder with challenge
-
-/Downloaded_files/ # folder where API downloaded attachments
-
 
 ### Project Structure
 
@@ -12,7 +8,7 @@ Junior_DE_Task/  # folder with challenge
 ├── credentials.json   <- aunthefication file for  API | not shared in GIT                  
 ├── token.json         <- not shared in GIT                                                 
 ├── data                                                                                    
-│       ├── external       <- Junior_DE_Task/       # challenge files                           
+│   ├── external       <- Junior_DE_Task/    # task files for the challenge                
 │   ├── downloaded     <- downloaded .csv files via Gmail API                               
 │   ├── interim        <- Intermediate data that has been transformed.                      
 │   └── processed      <- The final, canonical data sets for modeling.                      
