@@ -11,9 +11,10 @@
 ├── data                                                                                    
 │   ├── external       <- Junior_DE_Task/    # task files for the challenge                
 │   ├── downloaded     <- downloaded .csv files via Gmail API                                   
-│   └── processed      <- processed data                      
+│   └── processed      <- processed data   
+│                      <- database_schemes.png    #structure of original databases        
 │                                                                                           
-├── notebooks          <- Anya_DE.ipynb         # main notebook that calls functions from src    
+├── notebooks          <- Anya_DE.ipynb         # main notebook that calls functions from src 
 │                      <- Anya_DE_draft.ipynb   # drafts                                    
 │                      <- SQL_query             # SQL scripts                               
 │                                                                                           
@@ -34,6 +35,11 @@
     2a. rename the credentials file to credentials.json
     3. run script python3 quickstart.py to create token.json
     4. run Anya_DE.ipynb  as jupyter notebook to see my solutions 
+
+### Results
+    Notebook Anya_DE.ipynb contains solution to the tasks and shows generated plots
+    database schemes of the original databases are in data/processed
+
 
 ### Challenges
     - setting up environment (choices of software for local setup. 
