@@ -66,7 +66,9 @@
         Problem: could not use apply solutions found on internet to the data (i.e. https://ftisiot.net/postgresqljson/how-to-extract-field-from-json-postgresql/ )
 
 ### Further Ideas
-    - exploratory data analysis could be expanded endlessly, I focused only on video 
+    - exploratory data analysis could be expanded endlessly, I focused only on video share data, but there is a potential for instance for a 
+        - sentiment analysis (message + type of reactions to the post)
+    - fixing json issue should be possible in couple of days
 
 ### References
 
