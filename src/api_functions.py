@@ -13,7 +13,7 @@ import time
 
 
 def search_email(service, query_string,label_ids=[]):
-    #try:
+    try:
         message_list_response = service.users().messages().list(
             userId='me',
             labelIds=label_ids,
@@ -34,8 +34,8 @@ def search_email(service, query_string,label_ids=[]):
             message_items.extend(message_list_response.get('messages'))
             nextPageToken=message_items.get('nextPageToken')
         return message_items
-    #except Exception as e:
-    #    return 'No emails found'
+    except Exception as e:
+        return 'No emails found'
 
 def get_message_detail(service, msg_id,msg_format='metadata',metadata_headers: list=None):
     # SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']

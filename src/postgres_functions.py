@@ -26,8 +26,7 @@ def connect(params_dic):
     print("Connection successful")
     return conn
 
-# execute query
-
+# execute SQL query
 def execute_query(conn, query):
     """ Execute a single query """
     conn = connect(param_dic)
@@ -63,13 +62,12 @@ def create_postgres (db,new_table):
     conn.commit()
     conn.close()
 
-    ## Upload data to the postgres database
-
+## Upload data to the postgres database
 def upload_csv_to_postgres(table, csv):
     conn = connect(param_dic)
     cur = conn.cursor()
     try:
-        [cur.copy_expert("COPY %s FROM STDIN WITH DELIMITER ',' CSV "%(table), open(csv_file)) for csv_file in csv]
+        [cur.copy_expert("COPY %s FROM STDIN WITH DELIMITER ',' CSV"%(table), open(csv_file)) for csv_file in csv]
     except (Exception, psycopg2.DatabaseError) as error:
         print("Error: %s" % error)
         conn.rollback()
