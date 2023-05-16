@@ -10,15 +10,12 @@
 │                                                                                           
 ├── data                                                                                    
 │   ├── external       <- Junior_DE_Task/    # task files for the challenge                
-│   ├── downloaded     <- downloaded .csv files via Gmail API                                                 
+│   ├── downloaded     <- downloaded .csv files via Gmail API                                   
 │   └── processed      <- processed data                      
 │                                                                                           
-├── notebooks          <- Anya_DE.ipynb         # main notebook that calls functions from /src             
+├── notebooks          <- Anya_DE.ipynb         # main notebook that calls functions from src    
 │                      <- Anya_DE_draft.ipynb   # drafts                                    
 │                      <- SQL_query             # SQL scripts                               
-│                                                                                           
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.                      
-│   └── figures        <- Generated graphics and figures to be used in reporting            
 │                                                                                           
 ├── requirements.txt   <- The requirements file for reproducing the analysis environment,   
 │                         generated with `pip freeze > requirements.txt`                    
@@ -27,7 +24,7 @@
 │   ├── api_functions.py           <-  functions for Gmail API                              
 │   └── postgres_functions.py      <-  functions to manage postgres databases  
 │                                                                                           
-└── venvDE/            <- folder with virtual environment | not shared in GIT                       
+└── venvDE/            <- folder with virtual environment | not shared in GIT                 
 
 ### Installing development requirements
 ------------
@@ -68,6 +65,7 @@
 ### Further Ideas
     - exploratory data analysis could be expanded endlessly, I focused only on video share data, but there is a potential for instance for a 
         - sentiment analysis (message + type of reactions to the post)
+
     - fixing json issue should be possible in couple of days
 
 ### References
